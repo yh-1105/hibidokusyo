@@ -1,0 +1,327 @@
+@chart "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+	text-decoration: none;
+}
+
+
+html {
+	font-size: 100%;
+}
+/* HEADER
+----------------------------*/
+
+body {
+	font-family: "Yu Gothic Medium", "遊ゴシック　Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+	line-height: 1.7;
+	color: #432;
+	background-color: #fefcf6;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.logo {
+	width: 300px;
+	margin-top: 20px;
+}
+
+.main-nav {
+	display: flex;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-top: 62px;
+	list-style: none;
+	font-weight: bold;
+}
+
+.main-nav li {
+	margin-left: 36px;
+}
+
+.main-nav a {
+	color: #413d45;
+}
+
+
+.main-nav a:hover {
+	color:  #ecc84c;
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding 0 4%;
+}
+
+/* HOME
+----------------------------*/
+.big-bg {
+	background-size: cover;
+	background-position: center 80px;
+	background-repeat: no-repeat;
+}
+
+#home {
+	background-image: url(../images/booklogo.png);
+	min-height: 100vh;
+	background-blend-mode: multiply;
+}
+
+
+.sub-nav {
+	display: flex;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-top: 34px;
+	list-style: none;
+	justify-content: center;
+}
+
+.sub-nav li {
+	margin-left: 50px;
+}
+
+.sub-nav a {
+	color: #fefcf6;
+}
+
+
+.sub-nav a:hover {
+	color: #413d45;
+}
+
+*{box-sizing: border-box;}
+
+ul.sub-nav {
+background: #ecc84c;
+padding: 0;
+text-align: center;
+}
+ul.sub-nav li{
+display: inline-block;
+}
+
+
+ul.sub-nav li a{
+display: block;
+padding: 1em;
+color: #fefcf6;
+text-decoration: none;
+}
+ul.sub-nav a::first-line{
+font-size: 15px;
+font-weight: bold;
+}
+
+
+/* ABOUT
+----------------------------*/
+.about {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #413d45;
+}
+
+.about p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+/* CONTACT
+----------------------------*/
+.contact {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #413d45;
+}
+
+.contact p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+/* OTHERS
+----------------------------*/
+.others {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #413d45;
+}
+
+.others p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+/* CATEGORY
+----------------------------*/
+.my-favorite {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #413d45;
+}
+.my-favorite p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+.mystery {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #413d45;
+}
+.mystery p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+.romance {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #413d45;
+}
+.romance p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+.horror {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #413d45;
+}
+.horror p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+.fiction {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #413d450;
+}
+.fiction p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+.pure-literature {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #413d45;
+}
+.pure-literature p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+
+.essay {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	color: #413d45;
+}
+.essay p {
+	font-size: 0.8rem;
+	margin: 5px 0 10px;
+}
+
+/* book container */
+.book wrapper {
+    width:100%;
+    background-color: #fefcf6;
+}
+.book wrapper .book container {
+    max-width:1000px;
+    margin:0px auto;
+    padding:150px 0px;
+}
+/* book content */
+@media (min-width: 992px) {
+    .book-wrapper .book-container .book-content {
+        display: flex;
+        align-items: center;
+		justify-content: center;
+		margin-bottom: 5%;
+	}
+}
+.book-wrapper .book-content-item {
+    width:100%;
+}
+@media (min-width: 992px) {
+    .book-wrapper .book-content-item {
+        width:30%;
+    }
+}
+.book-wrapper .book-image {
+    display:block;
+    max-width:100%;
+    margin:0px auto;
+}
+.book-wrapper .book-text {
+	padding: 10px;
+	color: #413d45;
+	text-align: center;
+}
+.book-wrapper .book-text .book-heading {
+    margin:10px 40px 20px 0px;
+    font-size: 18px;
+    font-weight: normal;
+	text-align: center;
+	color: #413d45;
+}
+.book-heading {
+	font-size: 16px;
+}
+.tagtag{
+	color: #ffff+
+}
+a {
+  color: #fd6055;
+}
+
+/* FOOTER
+----------------------------*/
+
+footer {
+	background: #fd6055;
+	text-align: center;
+	padding: 26px 0;
+}
+
+footer-wrapper{
+	color: #fefcf6;
+	font-size: 0.875rem;
+	}
+	
